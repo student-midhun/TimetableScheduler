@@ -34,7 +34,7 @@ html, body {
 }
 
 body {
-  background:url('../img/loginbg.jpg') center center / auto 100% no-repeat;
+  background:url('../img/loginbg2.jpg') center center / 100% no-repeat;
   font-size: 14px;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -42,7 +42,9 @@ body {
   color: #333;
   background-color: #fff;
   overflow-x: hidden;
-  overflow-y: auto
+  overflow-y: auto;
+  width:100vw;
+  object-fit: cover;
 }
 
 .glyphicon {
